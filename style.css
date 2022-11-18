@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cc{
+
+    background-color: white;
+   
+    position: relative;
+   
+
+}
+header{
+    display: flex;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 20px;
+    
+
+}
+ul li {
+    display: inline-block;
+    }
+ul li a {
+    padding-left: 5px;
+    text-decoration: none;
+    color:black;
+    position: relative;
+}
+a::before {
+    content: "";
+    background: rgb(0, 174, 255);
+   height: 2px;
+   width: 0%;
+   position: absolute;
+   bottom: 0;
+   transition: 0.3s;
+   
+}
+a:hover {
+    color: blue;
+}
+a:hover::before  {
+    width: 100%;
+}
+img{
+   position: absolute;
+   margin-top: 30%;
+   margin-left: 13%;
+   
+}
+p{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+.BUY{
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px 30px;
+    border-radius: 1rem;
+}
+
+h2{
+    position: absolute;
+    top: 700px;
+    left: 80px;
+
+}
+.WH{
+    position: absolute;
+    top: 640px;
+}
